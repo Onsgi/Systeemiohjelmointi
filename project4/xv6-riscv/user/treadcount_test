@@ -1,0 +1,12 @@
+#include "kernel/types.h"
+#include "user/user.h"
+
+int
+main(void)
+{
+    char buf[30];
+
+    printf("Read count %d :0\n", getreadcount());
+
+    exit(0);
+}
